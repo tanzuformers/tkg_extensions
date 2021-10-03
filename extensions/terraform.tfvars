@@ -1,0 +1,12 @@
+syslog_host = "vrli.terasky.demo"
+grafana_admin_password = "Aa123456"
+grafana_ingress_fqdn = "grafana-08.terasky.demo"
+dns_server = "10.100.100.100"
+dns_zone = "terasky.demo"
+cluster_name = "demo-tkg-cls-08"
+mgmt_cluster_name = "demo-tkg-mgmt-cls"
+workload_cluster_context = "demo-tkg-cls-08-admin@demo-tkg-cls-08"
+harbor_ingress_fqdn = "harbor-08.terasky.demo"
+harbor_admin_password = "Aa123456!"
+harbor_db_password = "Aa123456!"
+harbor_registry_pv_size_gb = 100
