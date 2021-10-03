@@ -1,0 +1,11 @@
+syslog_host = "vrli.example.com"
+grafana_admin_password = "VMware1!"
+grafana_ingress_fqdn = "grafana.example.com"
+dns_server = "dns01.example.com"
+dns_zone = "example.com"
+cluster_name = "tkg-cluster-01"
+mgmt_cluster_name = "tkg-mgmt-cluster"
+workload_cluster_context = "tkg-cluster-01-admin@tkg-cluster-01"
+harbor_ingress_fqdn = "harbor.example.com"
+harbor_admin_password = "VMware1!"
+harbor_registry_pv_size_gb = 100
