@@ -36,7 +36,7 @@
 | <a name="input_dns_zone"></a> [dns\_zone](#input\_dns\_zone) | The DNS Zone for external DNS to manage its records in. | `string` | `""` | no |
 | <a name="input_dns_server"></a> [dns\_server](#input\_dns\_server) | The FQDN or IP of your Microsoft DNS Server that external DNS will manage. | `string` | `""` | no |
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | The Name of the cluster you are targeting. This is used by fluent bit to enrich logs | `string` | `""` | no |
-| <a name="input_mgmt_cluster_name"></a> [mgmt\_cluster\_name](#input\_mgmt\_cluster\_name) | . | `string` | `"The name of the Management Cluster that deployed this workload cluster. This is used by fluent bit to enrich logs."` | no |
+| <a name="input_mgmt_cluster_name"></a> [mgmt\_cluster\_name](#input\_mgmt\_cluster\_name) | The name of the Management Cluster that deployed this workload cluster. This is used by fluent bit to enrich logs. | `string` | `"."` | no |
 | <a name="input_fluent_bit_output_plugin"></a> [fluent\_bit\_output\_plugin](#input\_fluent\_bit\_output\_plugin) | The backend type to be used for Fluent Bit. Valid options are syslog, elasticsearch, splunk, http, and kafka | `string` | `"syslog"` | no |
 | <a name="input_elasticseach_host"></a> [elasticseach\_host](#input\_elasticseach\_host) | Elastic Search FQDN or IP for Fluent Bit Elastic Search Output Plugin. | `string` | `""` | no |
 | <a name="input_elasticseach_port"></a> [elasticseach\_port](#input\_elasticseach\_port) | Elastic Search Port for Fluent Bit Elastic Search Output Plugin. | `string` | `9200` | no |

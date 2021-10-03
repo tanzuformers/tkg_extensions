@@ -22,7 +22,7 @@
 | <a name="input_dns_zone"></a> [dns\_zone](#input\_dns\_zone) | The DNS Zone for external DNS to manage its records in. | `string` | `""` | no |
 | <a name="input_dns_server"></a> [dns\_server](#input\_dns\_server) | The FQDN or IP of your Microsoft DNS Server that external DNS will manage. | `string` | `""` | no |
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | The Name of the cluster you are targeting. This is used by fluent bit to enrich logs | `string` | `""` | no |
-| <a name="input_mgmt_cluster_name"></a> [mgmt\_cluster\_name](#input\_mgmt\_cluster\_name) | . | `string` | `"The name of the Management Cluster that deployed this workload cluster. This is used by fluent bit to enrich logs."` | no |
+| <a name="input_mgmt_cluster_name"></a> [mgmt\_cluster\_name](#input\_mgmt\_cluster\_name) | The name of the Management Cluster that deployed this workload cluster. This is used by fluent bit to enrich logs. | `string` | `""` | no |
 | <a name="input_syslog_host"></a> [syslog\_host](#input\_syslog\_host) | Syslog Host FQDN or IP for Fluent Bit Syslog Output Plugin. | `string` | `""` | no |
 | <a name="input_harbor_ingress_fqdn"></a> [harbor\_ingress\_fqdn](#input\_harbor\_ingress\_fqdn) | FQDN to expose Harbor via. | `string` | `""` | no |
 | <a name="input_harbor_admin_password"></a> [harbor\_admin\_password](#input\_harbor\_admin\_password) | Default Admin User Password for Harbor. | `string` | `"VMware1!"` | no |

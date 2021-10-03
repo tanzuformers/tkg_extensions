@@ -36,8 +36,8 @@ variable "cluster_name" {
 
 variable "mgmt_cluster_name" {
   type = string
-  default = "The name of the Management Cluster that deployed this workload cluster. This is used by fluent bit to enrich logs."
-  description = "."
+  description = "The name of the Management Cluster that deployed this workload cluster. This is used by fluent bit to enrich logs."
+  default = ""
 }
 
 variable "syslog_host" {
